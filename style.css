@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+body{
+   font-family: 'PT Sans', sans-serif;
+   background-color: #E5E5E5;
+   position: relative;
+}
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    background-color: #21A555;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    transition: 0.2s linear;
+}
+.nav-bar span{
+    font-size: 22px;
+    line-height: 50px;
+    padding-left: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.section-one{
+    height: 500px;
+    background-color: #838BE2;
+    font-size: 19px;
+    padding: 15px;
+}
+.section-two{
+    height: 500px;
+    background-color: #DCD06A;
+    font-size: 19px;
+    padding: 15px;
+}
+.section-three{
+    height: 500px;
+    background-color: #FF5162;
+    font-size: 19px;
+    padding: 15px;
+}
+.section-four{
+    height: 500px;
+    background-color: #CF6AFF;
+    font-size: 19px;
+    padding: 15px;
+}
+.btn{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    bottom: 0;
+    right: 10px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: scale(0.01);
+    transition: 0.3s ease-in;
+    visibility: hidden;
+}
+.appear{
+    bottom: 10px;
+    transform: scale(1);
+    visibility: visible;
+}
+.btn i{
+    font-size: 20px;
+    color: #fff;
+}
